@@ -7,5 +7,5 @@ let anoNascimento = "2009";
 console.log(anoAtual);
 console.log(anoNascimento);
 
-let idade = "anoAtual" - "anoNasciemnto";
+let idade = anoAtual - anoNascimento;
 console.log(idade);
