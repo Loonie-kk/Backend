@@ -41,3 +41,6 @@ const pi = 3.14;
 // - Palavras separadas por um _ (underline)
 
 // let nome_completo; let total_vendas; 
+
+// Template String
+// console.log(`Sua idade é: ${idade} anos.` );

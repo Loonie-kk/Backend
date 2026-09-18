@@ -12,6 +12,7 @@
 
 // String (Textos)
 // Uma String é um texto, sempre escrito entre aspas ("" ou '')
+
 let nome = "Titania";
 let mensagem = 'Olá, mundo!';
 
@@ -30,3 +31,16 @@ console.log(typeof nomeDois);
 
 let soma = 10 + 5;
 console.log(soma);
+
+// Boolean (verdadeiro ou falso)
+// Um boolean pode ter apenas dois valores true: (verdadeiro) ou false (falso)
+
+let maiorDeIdade = true;
+let menorDeIdade = false;
+
+console.log(maiorDeIdade); //Exibir true
+console.log(menorDeIdade); //Exibir false
+
+let idade = 20;
+let podeDirigir = idade >= 18;
+console.log(podeDirigir);
