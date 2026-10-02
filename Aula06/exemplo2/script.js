@@ -23,5 +23,9 @@ console.log(imagem);
 // ============================================
 
 function alterar(){
-    
+   titulo.innerHTML = "Novo Titulo"
+   subtitulo.innerText = "Novo subtitulo"
+   paragrafo.innerText = "Novo texto"
+   
+   
 }
