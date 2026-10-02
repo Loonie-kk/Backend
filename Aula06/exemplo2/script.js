@@ -25,7 +25,14 @@ console.log(imagem);
 function alterar(){
    titulo.innerHTML = "Novo Titulo"
    subtitulo.innerText = "Novo subtitulo"
-   paragrafo.innerText = "Novo texto"
-   
-   
+   paragrafo.innerText = "Novo texto"   
+
+   // Alterando elemento da classe
+   caixas[0].innerText = "Primeiro parágrafo alterado"
+   caixas[1].innerText = "Segundo parágrafo alterado"
+
+   // Alterando Imagem
+   imagem.src = "https://i.pinimg.com/736x/b9/66/7c/b9667cb4b4f531437bda8d783719faf9.jpg"
 }
+
+
