@@ -105,7 +105,7 @@ app.get("/api/cachorros/:raca", (req, res) => {
         res.status(404).json({
             status: "error",
             message: 'Raça "${raca}" não encontrada'
-        })
+        });
 
         // encerra a execução da rota 
         return;
@@ -120,3 +120,13 @@ app.get("/api/cachorros/:raca", (req, res) => {
         message: 'http://localhost:${PORT}/foos/${item}'
     });
 });
+
+// ===========================================
+// Inicia o servidor
+// ===========================================
+
+// inicia o servidor express
+app.listen(PORT, () => {
+    console.log('🚀 Servidor rodando em http://localhost:${PORT}');
+    console.log('📂 Coloque as fotos manualmente em : data/fotos/')
+})
